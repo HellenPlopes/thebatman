@@ -1,0 +1,177 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+nav {
+ width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    color: #e10007;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+li:hover {
+    color: white;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    margin: 5%;
+}
+
+#separação {
+    background-color: #e10007; 
+    width: 100%;
+    height: 15px;
+}
+
+
+#banner {
+    background-image: url(https://images5.alphacoders.com/131/1311166.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    margin-top: 20px;
+
+}
+
+
+
+.square {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color:  black;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color:white; 
+    background-color: #e10007;
+}
+
+p {
+    text-align: center;
+    color: white;
+    background-color: #e10007;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #e10007; 
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    color:  #e10007; }
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+}
+
+button {
+    background-color:  #e10007;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000;
+    color:white;
+}
+
+#final {
+
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+footer img {
+    max-width: 90%; 
+}
+
+footer span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-navegação {
+    margin-top: 20px;
+}
+
+.footerzinho {
+    list-style: none;
+    padding: 0;
+    margin: 0 300px;
+    justify-content: center;
+    width: 90%;
+}
+
+.footerzinho li {
+    display: inline-block;
+    margin: 30px;
+    width: 90%;
+}
+
+.footerzinho li a {
+    color: #fff; 
+    text-decoration: none;
+    width: 90%;
+    margin: 20PX;
+}
+
+.footerzinho li a:hover {
+    text-decoration: underline;
+}
+

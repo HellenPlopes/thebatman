@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?família=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+nav {
+ width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    color: #e10007;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+li:hover {
+    color: white;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    margin: 5%;
+}
+
+#separação {
+    background-color: #e10007; 
+    width: 100%;
+    height: 15px;
+}
+
+#conteudo {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-lado-esquerdo img {
+
+    margin-top: 50px;
+    float: left;
+    width: 400px;
+   
+}
+
+.content {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    background-color:#e10007;
+    margin-block-end: 50px;
+}
+
+.descrição {
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    margin: 5%; 
+    background-color: #e10007;
+    text-align: right;
+}
+
+#conteudo2 {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-lado-direito img {
+
+    align-items: start;
+    width: 350px;
+    float: right;
+    justify-content: center;
+   
+}
+
+
+.descrição-2 {
+
+    margin-top: 5%;
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    margin: 5%; 
+    background-color:rgb(53, 106, 141);
+    text-align:left;
+
+}
+
+.content-2 {
+    margin-top: 30px;
+    padding: 10px;
+    width: 90%;
+    height: 200px;
+    background-color: rgb(53, 106, 141) ;
+}
+
+
+#conteudo {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-final img {
+
+    margin-block-end: 50px;
+    float: left;
+    width: 400px;
+    background-color: #ac8917;
+    height: auto;
+   
+}
+
+.content-3 {
+    margin-top: 200px;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+    background-color:  #ac8917; 
+
+}
+
+.descrição-3 {
+    justify-content: right;
+    margin-top: 300px;
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    margin: 5%; 
+    padding: 5px;
+    background-color:  #ac8917;
+    text-align: right;
+   margin-block-end: 50px;
+}
+
+#final {
+
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    justify-content: center;
+}
+
+footer img {
+    max-width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-navegação {
+    margin-top: 20px;
+}
+
+.footerzinho {
+    list-style: none;
+    padding: 0;
+    margin: 0 300px;
+    justify-content: center;
+    width: 90%;
+}
+
+.footerzinho li {
+    display: inline-block;
+    margin: 30px;
+    width: 90%;
+}
+
+.footerzinho li a {
+    color: #fff; 
+    text-decoration: none;
+    width: 90%;
+    margin: 20PX;
+}
+
+.footerzinho li a:hover {
+    text-decoration: underline;
+}
+
